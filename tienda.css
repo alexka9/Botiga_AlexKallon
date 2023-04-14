@@ -37,6 +37,14 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+.fcc-btn{
+    background-color: #fe0000;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 @media (max-width: 800px) {
     .contenedor {
           padding: 70px;
@@ -55,6 +63,10 @@
     .boton {
         border-radius: 7px;
         padding: 7px 15px;
+    }
+    .fcc-btn {
+        border-radius: 7px;
+        padding: 7px 15px
     }
 }
 
