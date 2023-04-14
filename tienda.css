@@ -1,0 +1,42 @@
+.contenedor{
+    background-image: url("musica-electronica.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    height: 300px; 
+    text-align: center;
+}
+.texto{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: x-large;
+} 
+.row{
+  margin-top: 500px;
+  width: 100%;
+  clear: both;
+  font-family: 'Montserrat', sans-serif;
+}
+.column33{
+    width: 33.33%;
+    display: flex;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.3s ease;
+}
+.column33:hover {
+    transform: scale(1.1);
+    
+}
+.boton{
+    background-color: #fe0000;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
