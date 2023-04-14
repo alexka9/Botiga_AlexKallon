@@ -37,6 +37,25 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-
+@media (max-width: 800px) {
+    .contenedor {
+          padding: 70px;
+          height: 60px;
+    }
+    .texto {
+        font-size: small;
+    }
+    .row {
+        width: 50%;
+        margin-top: 90px
+    }
+    .column33 {
+        width: 55.33%;
+    }
+    .boton {
+        border-radius: 7px;
+        padding: 7px 15px;
+    }
+}
 
 
